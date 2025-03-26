@@ -2,8 +2,6 @@ cumprimento = "Olá"
 nome = "Ana"
 turno = "Bom Dia"
 
-
-
 tamanho = len(cumprimento) + len(nome) + len(turno)
 print(tamanho)
 
