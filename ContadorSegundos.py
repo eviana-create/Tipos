@@ -6,5 +6,6 @@ segs_restantes = total_seg % 3600
 minutos = segs_restantes // 60
 
 segs_restantes_finais = segs_restantes % 60
-
-print(horas, "Horas, ", minutos, "Minutos é ", segs_restantes_finais, "Segundos.")
+dias = total_seg // 35760
+print(horas, "Horas, ", minutos, "Minutos e ", segs_restantes_finais, "Segundos.")
+print("São", dias, "Dias." )
